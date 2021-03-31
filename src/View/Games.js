@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Cookie from "../Components/Cookie";
+
 
 import gameone from "../assets/images/hayday/games_thumbnail_hayday.jpg";
 import gametwo from "../assets/images/hayday/games_thumbnail_clashofclans.jpg";
@@ -81,6 +83,7 @@ const Games = () => {
         </a>
       </div>
       {/* games end */}
+      <Cookie />
       <Footer />
     </div>
   );

@@ -29,68 +29,136 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
-                <Link className="link">Clash of Clans</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/games/clashofclans/"
+                >
+                  Clash of Clans
+                </a>
               </li>
               <li>
-                <Link className="link">Boom Beach</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/games/boombeach/"
+                >
+                  Boom Beach
+                </a>
               </li>
               <li>
-                <Link className="link">Clash Royale</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/games/clashroyale/"
+                >
+                  Clash Royale
+                </a>
               </li>
               <li>
-                <Link className="link">Brawl Starts</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/games/brawlstars/"
+                >
+                  Brawl Starts
+                </a>
               </li>
             </ul>
           </div>
         </li>
         <li>
-          <Link className="link">Careers</Link>
+          <a className="link">Careers</a>
           <div className="sub-menu-2">
             <ul>
               <li>
-                <Link className="link">Why You Might Love It Here</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/why-you-might-love-it-here/"
+                >
+                  Why You Might Love It Here
+                </a>
               </li>
               <li>
-                <Link className="link">Our Offices</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/our-offices/"
+                >
+                  Our Offices
+                </a>
               </li>
               <li>
-                <Link className="link">Joining Supercell</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/joining-supercell/"
+                >
+                  Joining Supercell
+                </a>
               </li>
               <li>
-                <Link className="link">Living in Helsinki</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/living-helsinki/"
+                >
+                  Living in Helsinki
+                </a>
               </li>
               <li>
-                <Link className="link">Living in Shanghai</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/living-shanghai/"
+                >
+                  Living in Shanghai
+                </a>
               </li>
               <li>
-                <Link className="link">Open Positions</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/careers/#all"
+                >
+                  Open Positions
+                </a>
               </li>
             </ul>
           </div>
         </li>
         <li>
-          <Link className="link">Support</Link>
+          <a className="link" href="https://supercell.com/en/support/">
+            Support
+          </a>
         </li>
         <li>
-          <Link>
+          <a>
             <i class="icon-ellipsis-horizontal link"></i>
-          </Link>
+          </a>
           <div className="sub-menu-3">
             <ul>
               <li>
-                <Link className="link">News</Link>
+                <a className="link" href="https://supercell.com/en/news/">
+                  News
+                </a>
               </li>
               <li>
-                <Link className="link">Our Story</Link>
+                <a className="link" href="https://supercell.com/en/our-story/">
+                  Our Story
+                </a>
               </li>
               <li>
-                <Link className="link">Be Safe & Play Fair</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/safe-fair-play/"
+                >
+                  Be Safe & Play Fair
+                </a>
               </li>
               <li>
-                <Link className="link">For Media</Link>
+                <a className="link" href="https://supercell.com/en/for-media/">
+                  For Media
+                </a>
               </li>
               <li>
-                <Link className="link">Investments</Link>
+                <a
+                  className="link"
+                  href="https://supercell.com/en/investments/"
+                >
+                  Investments
+                </a>
               </li>
             </ul>
           </div>
@@ -98,9 +166,9 @@ const Nav = () => {
       </ul>
 
       <div className="search-field">
-        <div className="supercell-id">
+        {/* <div className="supercell-id">
           <img src={supercellid} alt="supercell_id" />
-        </div>
+        </div> */}
 
         <input
           type="text"

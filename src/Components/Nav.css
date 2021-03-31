@@ -96,8 +96,8 @@
 /* search */
 
 .search-field input {
-  margin-left: 300px; 
-  margin-top: -39px;
+  margin-left: -50px; 
+  margin-top: 20px;
   width: 200px;
   height: 40px;
 }
@@ -111,13 +111,13 @@
 }
 
 .search-result p {
-  font-size: 17px;
+  font-size: 20px;
   color: white;
 }
 
 .supercell-id img{
   height: 30px;
-  margin-left: 90px;
+  margin-left: 10px;
 
 }
 

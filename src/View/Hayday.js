@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Carousel from "react-elastic-carousel";
 import Card from "../Components/Card";
+import Cookie from "../Components/Cookie";
+
 // importing styles
 import "./Hayday.css";
 import HeroImage from "../assets/images/hayday/bg_hero_hayday.jpg";
@@ -206,6 +208,7 @@ const Hayday = () => {
       <iframe width="100%" height="615" src="https://www.youtube.com/embed/eL7GZYOFrDc" frameborder="0" allowfullscreen></iframe>
       </div>
       {/* iframe for youtube ends */}
+      <Cookie />
       <Footer />
     </div>
   );

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Cookie.css";
+import Button from "react-bootstrap/Button";
+
 const Cookie = () => {
   const [cookie, setCookie] = useState("");
 
@@ -21,7 +23,10 @@ const Cookie = () => {
               site traffic.{" "}
               <span style={{ fontWeight: "900" }}>Learn More</span>
             </p>
-            <button onClick={onSubmit}>GOT IT!</button>
+
+            <Button onClick={onSubmit} variant="light">
+              GOT IT!
+            </Button>
           </div>
         </div>
       )}
