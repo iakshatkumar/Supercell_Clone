@@ -1,0 +1,16 @@
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    z-index: 9;
+
+}
+
+.cookie-consent-content {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,327 @@
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+footer.main {
+  overflow: hidden;
+  background: #000;
+  margin-top: -1px !important;
+}
+
+footer.main nav,
+footer.main .footer-end {
+  width: 1600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1680px) {
+  footer.main nav,
+  footer.main .footer-end {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+footer.main .secondary-menu {
+  border-top: 1px solid #333;
+  padding-top: 24px;
+  padding-bottom: 1.5em;
+  background-position: bottom center;
+}
+
+footer.main .secondary-menu ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  width: 80%;
+  float: left;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .secondary-menu ul {
+    margin-top: 4px;
+  }
+}
+
+footer.main .secondary-menu ul li {
+  margin: 0 0 0 20px;
+  padding: 0;
+  display: inline-block;
+  font-family: "SupercellText-Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  footer.main .secondary-menu ul li {
+    margin-left: 13px;
+  }
+}
+
+footer.main .secondary-menu ul li:first-child {
+  margin-left: 0;
+}
+
+footer.main .secondary-menu ul li h1 {
+  font-family: "SupercellText-Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  footer.main .secondary-menu ul li h1 {
+    margin-left: 13px;
+  }
+}
+
+footer.main .secondary-menu ul li a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+footer.main .secondary-menu ul li a:hover,
+footer.main .secondary-menu ul li a.active,
+footer.main .secondary-menu ul li a.active-trail {
+  color: #fff;
+  font-weight: normal;
+}
+
+footer.main .social-media-menu {
+  font-family: "SupercellText-Bold", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 36px;
+  overflow: hidden;
+  padding-bottom: 2.75em;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu {
+    font-size: 11px;
+  }
+}
+
+footer.main .social-media-menu .app-stores {
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu .app-stores {
+    padding-top: 0px;
+  }
+}
+
+footer.main .social-media-menu .app-stores a {
+  text-align: left;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+footer.main .social-media-menu .app-stores a.appstore {
+  width: 147px;
+  height: 50px;
+  background: url(../assets/images/sociallinks/footer_appstore.png) no-repeat;
+  background-size: 100% auto;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu .app-stores a.appstore {
+    width: 125px;
+    margin-bottom: 4px;
+  }
+}
+
+footer.main .social-media-menu .app-stores a.googleplay {
+  width: 166px;
+  height: 50px;
+  background: url(../assets/images/sociallinks/footer_googleplay.png) no-repeat;
+  background-size: 100% auto;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu .app-stores a.googleplay {
+    width: 141px;
+  }
+}
+
+footer.main .social-media-menu .app-stores h5 {
+  display: none;
+}
+
+
+footer.main .social-media-menu .social {
+  float: left;
+  width: 50%;
+}
+
+
+footer.main .social-media-menu h5 {
+  font-family: "SupercellText-Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  color: #fff;
+  display: block;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu h5 {
+    font-size: 12px;
+  }
+}
+
+footer.main .social-media-menu ul {
+  margin: 1.5em 0 0 0;
+  padding: 0;
+  display: block;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu ul {
+    margin: 1em 0 0 0;
+  }
+}
+
+footer.main .social-media-menu ul li {
+  display: inline-block;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .social-media-menu ul li {
+    margin-left: 14px;
+  }
+}
+
+
+footer.main .social-media-menu ul li:first-child {
+  margin-left: 0;
+}
+
+footer.main .social-media-menu ul li a {
+  display: block;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  white-space: nowrap;
+  text-indent: -9999px;
+  background-size: auto 23px !important;
+  background-position: top center !important;
+  outline: none;
+  border: 0;
+}
+
+footer.main .social-media-menu ul li a.youtube {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_youtube.png)
+    no-repeat;
+}
+
+footer.main .social-media-menu ul li a.facebook {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_facebook.png)
+    no-repeat;
+  width: 26px;
+}
+
+footer.main .social-media-menu ul li a.instagram {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_instagram.png)
+    no-repeat;
+  width: 24px;
+}
+
+footer.main .social-media-menu ul li a.twitter {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_twitter.png)
+    no-repeat;
+  width: 28px;
+}
+
+footer.main .social-media-menu ul li a.linkedin {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_linkedin.png)
+    no-repeat;
+  width: 26px;
+}
+
+footer.main .social-media-menu ul li a.glassdoor {
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/18/some_glassdoor.png)
+    no-repeat;
+  width: 24px;
+}
+
+footer.main .footer-end {
+  position: relative;
+  margin-bottom: 10em;
+}
+
+@media screen and (max-width: 767px) {
+  footer.main .footer-end {
+    margin-bottom: 1.25em;
+    margin-top: 1em;
+  }
+}
+
+footer.main .footer-end.solo {
+  margin-top: 2em;
+}
+
+footer.main .footer-end .mail {
+  width: 75%;
+  color: #666;
+  font-family: "SupercellText-Medium", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+footer.main .footer-end .mail address {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+footer.main .footer-end .mail span {
+  display: block;
+}
+
+footer.main .footer-end .logo {
+  width: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  footer.main .footer-end .logo {
+    right: 44px;
+  }
+}
+
+footer.main .footer-end .logo a {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 54px;
+  height: 46px;
+  text-indent: -9999px;
+  outline: none;
+  background: url(https://cdn.supercell.com/supercell.com/210330120958/all/themes/supercell/img/logo_supercell@2x.png)
+    no-repeat;
+  background-size: 54px 44px;
+}
+
+@media screen and (max-width: 1280px) {
+  footer.main .footer-end .logo a {
+    width: 45px;
+    height: 38px;
+  }
+}

@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.hero {
+    top: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/bg_hero_frontpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(100%);
+}
+.hero-content {
+    padding: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/bg_fp_nextstep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(100%);
+}
+.careers-content {
+    color: white;
+    padding: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.archives img {
+    height: 400px;
+    width: 600px;
+}
+
+.archives {
+    padding: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.archives-content {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news {
+    color: tomato;
+    font-weight: 900;
+}
+
+.extra {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.games {
+    position: relative;
+    background: url(../assets/images/bg_wmg_brawlstars.jpg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 200px;
+    filter: brightness(80%) blur(5%);
+}
+
+.games-content p{
+    letter-spacing: 1px;
+}
+
+.games-content Button {
+    margin-top: 50px;
+}

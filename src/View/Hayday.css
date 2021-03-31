@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hayday-hero img {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+}
+
+.app-store {
+  margin: 100px;
+}
+
+.app-store .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.app-store .row .column {
+  padding: 30px;
+}
+
+.app-store .app-store-content p,
+.stats .stats-content p {
+  letter-spacing: 1px;
+}
+
+.app-store .app-store-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.app-store .app-store-links .app-link img {
+  height: 70px;
+  width: 200px;
+  padding: 0.4rem;
+}
+
+.stats {
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.uptodate {
+  padding: 200px;
+  color: black;
+  background-image: url(../assets/images/home/clan_wars_news_article_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social {
+    padding: 10px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+  margin: 100px;
+}
+
+.youtube-iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+.brawler img {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
