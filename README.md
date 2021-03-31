@@ -2,7 +2,7 @@
 https://supercell-clone.herokuapp.com/
 
 ### Contributors
-  Both the contributing accounts are mine.
+  Both the contributing accounts are mine. (Once I had pushed from Git Bash command line and then from VS Code's Git tool and both are configured with different account of mine). 
 
 # Getting Started with Create React App
 
