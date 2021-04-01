@@ -81,3 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * React-Elastic-Carousel for building a responsive carousel out of the box.(In hay-day page)
 * React-FontAwesome for icons.
 * Styling - All the CSS is written by me for all components no third party library is used. (just included React-Bootstrap for its Button Component).
+* Fetch-API for requesting data from API/backend.
