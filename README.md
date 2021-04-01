@@ -74,3 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Libraries Used - 
+* React Js Library for building the UI.
+* React-Router-Dom for Routing different component.
+* React-Elastic-Carousel for building a responsive carousel out of the box.(In hay-day page)
+* React-FontAwesome for icons.
+* Styling - All the CSS is written by me for all components no third party library is used. (just included React-Bootstrap for its Button Component).
